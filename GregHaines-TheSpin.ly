@@ -5,24 +5,35 @@
   composer = "Greg Haines"
 }
 
+splitGroup = #(define-music-function (parser location repeats group1 group2)
+               (number? ly:music? ly:music?)
+               #{
+               \repeat unfold $repeats {
+               \relative c' {
+               \change Staff = lh
+               $group1
+               \change Staff = rh
+               $group2 } }
+               #})
+
 introChord = #(define-music-function (parser location speed repeats)
                (ly:duration? number?)
                #{
                \repeat unfold $repeats {
                \relative c' {
-               \change Staff = lower
+               \change Staff = lh
                c$speed (ees
-               \change Staff = upper
+               \change Staff = rh
                g ees') } }
                #})
 
 aa = \relative c' {c ees g ees'}
 bb = \relative c' {c16 (ees g des')}
 cc = \relative c' {c16 (ees g c)}
-dd = \relative c' {aes16 (ees' g ees')}
+dd = \splitGroup 8 {aes16 (ees' } { g ees')}
 ee = \relative c' {aes16 (ees' g des')}
 
-upper = \relative c' {
+rh = \relative c' {
   \time 4/4
   \key aes \major
   \tempo 4. = 60
@@ -34,13 +45,10 @@ upper = \relative c' {
   \introChord 16 4
   \tempo 4. = 130
   \introChord 16 8
-  \bb
-  \cc
   \dd
-  \ee
 }
 
-lower = \relative c' {
+lh = \relative c' {
   \clef "bass"
   \key aes \major
   s1 * 100
@@ -48,8 +56,8 @@ lower = \relative c' {
 
 \score {
   \new PianoStaff <<
-    \new Staff = "upper" \upper
-    \new Staff = "lower" \lower
+    \new Staff = "rh" \rh
+    \new Staff = "lh" \lh
   >>
 }
 
