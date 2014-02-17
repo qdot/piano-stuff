@@ -38,38 +38,38 @@ splitChords = #(define-music-function (parser location repeats group1 group2)
 
   \tempo 4. = 130
   \splitGroup 8 <c ees>\arpeggio <g' ees'>\arpeggio
-  \splitGroup 4 <c ees>\arpeggio <g' des'>\arpeggio
+  \splitGroup 4 <c ees>\arpeggio <g' d'>\arpeggio
   \splitGroup 8 <c ees>\arpeggio <g' c>\arpeggio
   
   \splitGroup 4 <aes ees'>\arpeggio <g' ees'>\arpeggio
-  \splitGroup 4 <aes ees'>\arpeggio <g' des'>\arpeggio
+  \splitGroup 4 <aes ees'>\arpeggio <g' d'>\arpeggio
   \splitGroup 8 <c ees>\arpeggio <g' c>\arpeggio
 
   \splitGroup 4 <c ees>\arpeggio <g' bes ees>\arpeggio
-  \splitGroup 4 <c ees>\arpeggio <g' bes des>\arpeggio
+  \splitGroup 4 <c ees>\arpeggio <g' bes d>\arpeggio
   \splitGroup 8 <c ees>\arpeggio <g' bes c>\arpeggio
 
   \splitGroup 4 <aes ees'>\arpeggio <g' bes ees>\arpeggio
-  \splitGroup 4 <aes ees'>\arpeggio <g' bes des>\arpeggio
+  \splitGroup 4 <aes ees'>\arpeggio <g' bes d>\arpeggio
   \splitGroup 8 <c ees>\arpeggio <g' bes c>\arpeggio
 
   \splitGroup 3 <c ees>\arpeggio <g' bes ees>\arpeggio
   \splitGroup 2 <c ees>\arpeggio <g' bes f'>\arpeggio
-  \splitGroup 3 <c ees>\arpeggio <g' bes des>\arpeggio
+  \splitGroup 3 <c ees>\arpeggio <g' bes d>\arpeggio
   \splitGroup 8 <c ees>\arpeggio <g' bes ees>\arpeggio
 
   \splitGroup 3 <aes ees'>\arpeggio <g' bes ees>\arpeggio
   \splitGroup 2 <aes ees'>\arpeggio <g' bes f'>\arpeggio
-  \splitGroup 3 <aes ees'>\arpeggio <g' bes des>\arpeggio
+  \splitGroup 3 <aes ees'>\arpeggio <g' bes d>\arpeggio
   \splitGroup 8 <c ees>\arpeggio <g' bes ees>\arpeggio
 
   \splitGroup 3 <c ees>\arpeggio <g' bes ees>\arpeggio
   \splitGroup 2 <c ees>\arpeggio <g' bes f'>\arpeggio
-  \splitGroup 3 <c ees>\arpeggio <g' bes des>\arpeggio
+  \splitGroup 3 <c ees>\arpeggio <g' bes d>\arpeggio
   \splitGroup 8 <c ees>\arpeggio <g' bes ees>\arpeggio
 
-  \splitGroup 4 <g ees'>\arpeggio <g' bes des>\arpeggio
-  \splitGroup 4 <aes ees'>\arpeggio <g' bes des>\arpeggio
+  \splitGroup 4 <g ees'>\arpeggio <g' bes d>\arpeggio
+  \splitGroup 4 <aes ees'>\arpeggio <g' bes d>\arpeggio
   \splitGroup 8 <c ees>\arpeggio <g' bes c>\arpeggio
 }
 
@@ -101,7 +101,7 @@ partBlh = { s1 * 14 }
 
 rh = {
   \time 4/4
-  \key aes \major
+  \key ees \major
   % Intro. Slowly speeds up until we hit 16th note pace
   \partArh
   \partBrh
@@ -110,7 +110,7 @@ rh = {
 
 lh = \relative c' {
   \clef "bass"
-  \key aes \major
+  \key ees \major
   \partAlh
   \partBlh
   \partClh
