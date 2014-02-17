@@ -19,10 +19,12 @@ splitChords = #(define-music-function (parser location repeats group1 group2)
                (number? ly:music? ly:music?)
                 #{
                 \repeat unfold $repeats {
+                \override Stem #'(details beamed-lengths) = #'(1.5)
                 \change Staff=lh
-                \relative c' { $group1 } 
+                \relative c' { \stemUp $group1 } 
                 \change Staff=rh
-                \relative c' { $group2 }
+                \relative c' { \stemDown $group2 }
+                \revert Stem #'details
                 }
                #})
 
