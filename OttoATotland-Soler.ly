@@ -22,11 +22,11 @@ rhpa = {
 rhpb = {
   r4 c des |
   r4 des ees |
-  ees8 des ees ges bes4 |
+  ees8 bes ees ges bes4 |
   bes8 aes ees4 des4 |
   r4 c des |
   r4 des ees |
-  ees8 des ees ges bes b |
+  ees8 bes ees ges bes b |
   bes aes ees4 des4 |
 }
 
