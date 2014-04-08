@@ -121,13 +121,19 @@ partBlh = { s1 * 14 }
   \splitGroup 1 <c,>4\arpeggio <aes' aes'>\arpeggio
   \splitGroup 3 <c ees>4\arpeggio <aes' aes'>\arpeggio
   \splitGroup 4 <c ees>4\arpeggio <c' c'>\arpeggio
-  \splitGroup 1 <c,>4\arpeggio <g' g'>\arpeggio
-  \splitGroup 7 <c ees>4\arpeggio <g' g'>\arpeggio
+  \splitGroup 8 <c ees>4\arpeggio <g' g'>\arpeggio
 
   \mark "G"
   \splitGroup 6 <f, c'>4\arpeggio <aes' aes'>\arpeggio
   \splitGroup 2 <g ees'>4\arpeggio <c' c'>\arpeggio
-  \splitGroup 8 <ees bes ees'>4\arpeggio <g' g'>\arpeggio
+  \splitGroup 8 <ees, bes'>4\arpeggio <g' g'>\arpeggio
+  \splitGroup 8 <d, bes'>4\arpeggio <f f'>\arpeggio
+  \splitGroup 8 <ees, bes'>4\arpeggio <g' g'>\arpeggio
+
+  \mark "H"
+  \splitGroup 8 <c ees>4\arpeggio <ees' ees'>\arpeggio
+  \splitGroup 1 <c ees>4\arpeggio <ees' ees'>\arpeggio
+  \splitGroup 7 <c ees>4\arpeggio <ees' ees'>\arpeggio
 
 }
 
