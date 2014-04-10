@@ -131,9 +131,39 @@ partBlh = { s1 * 14 }
   \splitGroup 8 <ees, bes'>4\arpeggio <g' g'>\arpeggio
 
   \mark "H"
-  \splitGroup 8 <c ees>4\arpeggio <ees' ees'>\arpeggio
-  \splitGroup 1 <c ees>4\arpeggio <ees' ees'>\arpeggio
-  \splitGroup 7 <c ees>4\arpeggio <ees' ees'>\arpeggio
+  \splitGroup 8 <c, g'>4\arpeggio <ees ees'>\arpeggio
+  \splitGroup 1 <c,,>4\arpeggio <ees ees'>\arpeggio
+  \splitGroup 7 <c, g'>4\arpeggio <ees ees'>\arpeggio
+  \splitGroup 4 <c, g'>4\arpeggio <ees ees'>\arpeggio
+  \splitGroup 4 <d, bes'>4\arpeggio <f f'>\arpeggio
+  \splitGroup 8 <ees, bes'>4\arpeggio <g' g'>\arpeggio
+
+  \mark "I"
+  \splitGroup 4 <f c>4\arpeggio <aes' aes'>\arpeggio
+  \splitGroup 4 <g ees'>4\arpeggio <bes' bes'>\arpeggio
+  \splitGroup 8 <aes ees>4\arpeggio <g' g'>\arpeggio
+
+  \mark "J"
+  \splitGroup 4 <c, g'>4\arpeggio <ees ees'>\arpeggio
+  \splitGroup 4 <des, aes'>4\arpeggio <f f'>\arpeggio
+  \splitGroup 4 <aes ees>4\arpeggio <c c'>\arpeggio
+  \splitGroup 4 <g d>4\arpeggio <bes bes'>\arpeggio
+  \splitGroup 8 <bes, ees>4\arpeggio <g g'>\arpeggio
+
+  \mark "K"
+  \splitGroup 8 <bes, ees>4\arpeggio <g g'>\arpeggio
+  \splitGroup 4 <bes, ees>4\arpeggio <aes aes'>\arpeggio
+  \splitGroup 4 <bes, ees>4\arpeggio <c c'>\arpeggio
+  \splitGroup 8 <bes, ees>4\arpeggio <g g'>\arpeggio
+  \splitGroup 4 <bes, ees>4\arpeggio <aes aes'>\arpeggio
+  \splitGroup 4 <bes, ees>4\arpeggio <c c'>\arpeggio
+  \splitGroup 8 <bes, ees>4\arpeggio <g g'>\arpeggio
+
+  \mark "L"
+  \splitGroup 4 <f,, c'>4\arpeggio <aes aes'>\arpeggio
+  \splitGroup 4 <g, ees'>4\arpeggio <c c'>\arpeggio
+  \splitGroup 8 <aes, ees'>4\arpeggio <g g'>\arpeggio
+  \splitGroup 16 <c, ees>4\arpeggio <g g'>\arpeggio
 
 }
 
