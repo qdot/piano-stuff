@@ -152,16 +152,16 @@ partBlh = { s1 * 14 }
 
   \mark "K"
   \splitGroup 8 <bes, ees>4\arpeggio <g g'>\arpeggio
-  \splitGroup 4 <bes, ees>4\arpeggio <aes aes'>\arpeggio
-  \splitGroup 4 <bes, ees>4\arpeggio <c c'>\arpeggio
+  \splitGroup 4 <bes, ees>4\arpeggio <aes g'>\arpeggio
+  \splitGroup 4 <bes, ees>4\arpeggio <c g'>\arpeggio
   \splitGroup 8 <bes, ees>4\arpeggio <g g'>\arpeggio
-  \splitGroup 4 <bes, ees>4\arpeggio <aes aes'>\arpeggio
-  \splitGroup 4 <bes, ees>4\arpeggio <c c'>\arpeggio
+  \splitGroup 4 <bes, ees>4\arpeggio <aes g'>\arpeggio
+  \splitGroup 4 <bes, ees>4\arpeggio <c g'>\arpeggio
   \splitGroup 8 <bes, ees>4\arpeggio <g g'>\arpeggio
 
   \mark "L"
-  \splitGroup 4 <f,, c'>4\arpeggio <aes aes'>\arpeggio
-  \splitGroup 4 <g, ees'>4\arpeggio <c c'>\arpeggio
+  \splitGroup 4 <f,, c'>4\arpeggio <aes g'>\arpeggio
+  \splitGroup 4 <g, ees'>4\arpeggio <c g'>\arpeggio
   \splitGroup 8 <aes, ees'>4\arpeggio <g g'>\arpeggio
   \splitGroup 16 <c, ees>4\arpeggio <g g'>\arpeggio
 
